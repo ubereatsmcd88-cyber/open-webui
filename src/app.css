@@ -807,3 +807,30 @@ body {
 #note-content-container .ProseMirror {
 	padding-bottom: 2rem; /* space for the bottom toolbar */
 }
+
+
+/* Glassmorphism for Sidebar and Chat Input */
+.sidebar, .chat-input-container {
+    background: rgba(0, 0, 0, 0.7) !important;
+    backdrop-filter: blur(12px) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Stylish Dynamic Buttons with Glow */
+button.primary, .btn-primary {
+    background: #ffffff !important;
+    color: #000000 !important;
+    transition: all 0.3s ease-in-out !important;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2) !important;
+    border-radius: 12px !important;
+}
+
+button.primary:hover, .btn-primary:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Smooth Transitions for Chat Bubbles */
+.chat-bubble {
+    transition: opacity 0.5s ease-in !important;
+}
