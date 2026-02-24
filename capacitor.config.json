@@ -1,0 +1,6 @@
+{
+  "appId": "com.souhengai.app",
+  "appName": "Souheng AI",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}
