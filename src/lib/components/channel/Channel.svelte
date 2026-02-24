@@ -284,10 +284,10 @@
 					} else {
 						return e.name;
 					}
-				}, '')} • Open WebUI</title
+				}, '')} • Souheng AI</title
 		>
 	{:else}
-		<title>#{channel?.name ?? 'Channel'} • Open WebUI</title>
+		<title>#{channel?.name ?? 'Channel'} • Souheng AI</title>
 	{/if}
 </svelte:head>
 

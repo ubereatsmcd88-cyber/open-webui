@@ -810,78 +810,74 @@ body {
 
 
 /* 
-   Souheng AI - Luxury Theme (Black & Gold)
-   Designed for ultimate professionalism and seriousness.
+   Souheng AI - Ultra-Clean Business Theme (Black & White)
+   Focus: Absolute Seriousness, Simplicity, and Clarity.
 */
 
 :root {
-    --color-gold: #D4AF37;
-    --color-gold-muted: rgba(212, 175, 55, 0.2);
-    --color-gold-bright: #F9E27E;
-    --color-black-deep: #0A0A0A;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray-soft: #F5F5F7;
+    --color-gray-border: #E5E5E7;
 }
 
 .dark body {
-    background: var(--color-black-deep);
-    color: #E5E5E5;
+    background: var(--color-black);
+    color: var(--color-white);
 }
 
-/* Glassmorphism for Sidebar and Chat Input */
+/* Sidebar & Chat Input - Clean Matte Finish */
 .sidebar, .chat-input-container {
-    background: rgba(10, 10, 10, 0.8) !important;
-    backdrop-filter: blur(16px) !important;
-    border-right: 1px solid rgba(212, 175, 55, 0.15) !important;
+    background: #000000 !important;
+    border-right: 1px solid #222 !important;
+    backdrop-filter: none !important;
 }
 
-/* Gold Accents & Primary Colors */
-.text-primary {
-    color: var(--color-gold) !important;
-}
-
-.bg-primary {
-    background-color: var(--color-gold) !important;
-    color: #000 !important;
-}
-
-/* Stylish Dynamic Buttons with Gold Glow */
+/* Buttons - Black & White Contrast */
 button.primary, .btn-primary, .bg-blue-600 {
-    background: linear-gradient(135deg, var(--color-gold), var(--color-gold-bright)) !important;
-    color: #000 !important;
-    font-weight: 600 !important;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2) !important;
-    border-radius: 10px !important;
-    border: none !important;
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-weight: 500 !important;
+    border-radius: 6px !important;
+    border: 1px solid #FFFFFF !important;
+    transition: all 0.2s ease !important;
+    box-shadow: none !important;
 }
 
 button.primary:hover, .btn-primary:hover, .bg-blue-600:hover {
-    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4) !important;
-    transform: translateY(-2px) !important;
-    filter: brightness(1.1);
+    background: #000000 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    transform: none !important;
 }
 
-/* Links & Interactive Elements */
+/* Text & Links */
+.text-primary {
+    color: #FFFFFF !important;
+}
+
 a:hover {
-    color: var(--color-gold) !important;
+    text-decoration: underline !important;
 }
 
-/* Custom Scrollbar in Gold */
-::-webkit-scrollbar-thumb {
-    background-color: var(--color-gold-muted) !important;
-    border: 1px solid rgba(212, 175, 55, 0.1);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: var(--color-gold) !important;
-}
-
-/* Chat Bubble Enhancements */
+/* Chat Bubbles - High Contrast, Simple */
 .chat-bubble {
-    transition: all 0.4s ease-out !important;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px !important;
+    border: 1px solid #333 !important;
 }
 
 .user-bubble {
-    border-left: 3px solid var(--color-gold) !important;
+    background: #111 !important;
+    border-color: #444 !important;
+}
+
+/* Scrollbar - Minimalist */
+::-webkit-scrollbar-thumb {
+    background-color: #333 !important;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555 !important;
 }
 
