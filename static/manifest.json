@@ -4,11 +4,8 @@
       "src": "/logo.svg",
       "sizes": "any",
       "type": "image/svg+xml"
-    },
-    {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
     }
-  ]
+  ],
+  "name": "Souheng AI",
+  "short_name": "Souheng AI"
 }
