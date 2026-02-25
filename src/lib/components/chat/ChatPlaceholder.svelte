@@ -53,8 +53,8 @@
 							placement="right"
 						>
 							<img
-								src={`${WEBUI_BASE_URL}/static/logo.svg`}
-								class=" size-[2.7rem] rounded-full border-[1px] border-gray-100 dark:border-none"
+								src={`${WEBUI_BASE_URL}/static/logo.png`}
+								class=" size-[2.7rem] rounded-full border-[1px] border-gray-100 dark:border-none logo-only"
 								alt="logo"
 								draggable="false"
 							/>

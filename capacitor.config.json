@@ -1,6 +1,6 @@
 {
-  "appId": "com.souhengai.app",
-  "appName": "Souheng AI",
-  "webDir": "build",
-  "bundledWebRuntime": false
+    "appId": "ai.souheng.app",
+    "appName": "Souheng AI",
+    "webDir": "build",
+    "bundledWebRuntime": false
 }

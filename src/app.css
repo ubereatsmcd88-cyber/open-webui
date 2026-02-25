@@ -881,3 +881,28 @@ a:hover {
     background-color: #555 !important;
 }
 
+
+    /* Interactive & Elegant Transitions */
+    .logo-only { 
+        height: 2.7rem; 
+        width: 2.7rem;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .logo-only:hover { 
+        transform: rotate(10deg) scale(1.15);
+    }
+    
+    /* Ensure only Lotus is visible in placeholders */
+    img[alt="logo"] {
+        content: url('/static/logo.png');
+        object-fit: contain;
+    }
+    
+    /* Mobile-First Interactivity */
+    .logo-only { 
+        height: 2.7rem; 
+        width: 2.7rem;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        -webkit-tap-highlight-color: transparent;
+    }
+    
