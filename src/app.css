@@ -1122,3 +1122,11 @@ a:hover {
         -webkit-tap-highlight-color: transparent;
     }
     
+    /* Mobile-First Interactivity */
+    .logo-only { 
+        height: 2.7rem; 
+        width: 2.7rem;
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        -webkit-tap-highlight-color: transparent;
+    }
+    
