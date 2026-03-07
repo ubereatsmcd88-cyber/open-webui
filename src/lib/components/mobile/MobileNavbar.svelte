@@ -6,7 +6,7 @@
 	export let title = 'Souheng AI';
 </script>
 
-<nav class="flex items-center justify-between px-4 py-2 bg-white dark:bg-gray-900 border-b dark:border-gray-800 h-14 md:hidden">
+<nav class="flex items-center justify-between px-4 pt-[env(safe-area-inset-top)] pb-2 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b dark:border-gray-800 h-[calc(3.5rem+env(safe-area-inset-top))] sticky top-0 z-50 md:hidden shadow-sm">
 	<button
 		class="p-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition"
 		on:click={() => showSidebar.set(true)}
